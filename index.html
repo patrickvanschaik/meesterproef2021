@@ -5,13 +5,14 @@
     <link rel="icon" type="image/png" href="favicon.ico"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e9e872ef67.js" crossorigin="anonymous"></script>
 <title>Meesterproef 2021 - Lingecollege</title>
 </head>
 <body>
-    <header>
+    <header id="home">
         <div class='banner'>
             <img src='./img/banner-logo.jpg'>
-            <h2>Meesterproef Presentaties 2021</h2>
+            <h1>Meesterproef Presentaties 2021</h1>
         </div>
         <div class="header">
             <div class='bg-img'>
@@ -19,10 +20,14 @@
             <div class="header-center">
                 <iframe width="1120" height="630" src="https://www.youtube.com/embed/PsTp0H_sFLA?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <div class="button-container">
+                <button onclick="window.location.href='#presentaties'">Presentaties <i class="fas fa-arrow-down"></i></button>
+            </div>
         </div>
     </header>
-    <br>
-    <br>
+
+    <h1 id="presentaties" style="text-align: center;">Presentaties</h1>
+
     <div class="grid-container" href='https://www.youtube.com/embed/PsTp0H_sFLA?controls=0'>
         <div class="grid-item">
             <img src="./img/placeholder.png">
@@ -101,6 +106,7 @@
     <footer>
         <a href='https://www.lingecollege.nl' target='_blank'><img src='./img/logo-light.svg'></a>
         <p>&copy; 2021 - Patrick van Schaik en Hugo van Schalm</p>
+        <button onclick="window.location.href='#home'">Naar boven <i class="fas fa-arrow-up"></i></button>
     </footer>
 </body>
 </html>
