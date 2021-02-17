@@ -37,7 +37,6 @@ header {
     z-index: 1;
 }
 
-<<<<<<< HEAD
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -51,7 +50,6 @@ header {
     font-size: 30px;
     text-align: center;
   }
-=======
 .banner img{
     height: 40%;
     position: relative;
@@ -73,4 +71,3 @@ header {
     line-height: 15px;
     color: #068EA5;
 }
->>>>>>> e6291f6c4b50622bb1ab6e7b13a7999194f092e3
