@@ -61,6 +61,31 @@ header {
     position: absolute;
 }
 
+.spikkels{
+    width: 30%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.info{
+    position: absolute;
+    right: 19%;
+    top: 40%;
+    width: 15%;
+    transform: translateY(-50%);
+}
+
+.info h1{
+    color: white;
+}
+
+.info p{
+    color: white;
+    font-size: 1rem;
+}
+
 button {
     background: transparent;
     color: white;
