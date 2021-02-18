@@ -22,14 +22,10 @@ header {
 }
 
 .header {
-    width: 100%;
     margin: 0 auto;
     background: #068EA5;
     overflow: hidden;
     z-index: -1;
-}
-
-.header::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -40,12 +36,9 @@ header {
     z-index: -1;
 }
 
-.header img {
-    height: 100vh;
-    width: 100%;
-}
-
-.header-center {
+.header iframe {
+    width: 60%;
+    height: 60%;
     margin: 0;
     position: absolute;
     top: 45%;
@@ -54,6 +47,13 @@ header {
     transform: translate(-50%, -50%);
     filter: none !important;
 }
+
+.header img {
+    height: 100vh;
+    width: 100%;
+}
+
+
 
 .header .button-container {
     top: 85%;
@@ -76,9 +76,9 @@ header {
 
 .info{
     position: absolute;
-    right: 19%;
+    right: 15%;
     top: 40%;
-    width: 15%;
+    width: 20%;
     transform: translateY(-50%);
 }
 
@@ -216,12 +216,52 @@ footer img {
     transform: translateY(-50%);
 }
 
-@media only screen and (max-width: 800px) {
-    .grid-item{
-        width: 100%;
-    }
+@media (min-width: 300px) and (max-width: 999px) {
 
     .grid-container{
         grid-template-columns: auto;
+    }
+
+    .banner h1{
+        text-align: right;
+        left: auto;
+        right: 10%;
+    }
+
+    .info{
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        right: auto;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .info p{
+        font-size: 2rem;
+    }
+
+    .info h1{
+        font-size: 3rem;
+    }
+
+
+
+
+    .header{
+        border-radius: 0;
+    }
+    
+    .header iframe{
+        width: 80%;
+        height: 30%;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+    }
+
+    .header .button-container{
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
