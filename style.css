@@ -55,11 +55,13 @@ header {
 
 
 .header button {
-    top: 85%;
+    bottom: 13%;
     left: 25%;
     position: absolute;
     width: 15rem;
     font-size: 1.3rem;
+    background-color: #068EA5;
+    z-index: 1;
 }
 
 .spikkels{
@@ -118,7 +120,7 @@ footer button{
     width: 100%;
     height: 66px;
     background-color: white;
-    z-index: 1;
+    z-index: 2;
 }
 
 .grid-container {
@@ -221,7 +223,7 @@ footer img {
     .banner h1{
         text-align: right;
         left: auto;
-        right: 10%;
+        right: 0.7rem;
     }
 
     .info{
@@ -234,11 +236,11 @@ footer img {
     }
 
     .info p{
-        font-size: 2rem;
+        font-size: 18px;
     }
 
     .info h1{
-        font-size: 3rem;
+        font-size: 30px;
     }
 
 
@@ -256,6 +258,7 @@ footer img {
 
     .header button{
         left: 50%;
+        bottom: 10px;
         transform: translateX(-50%);
     }
 }
