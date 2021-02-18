@@ -236,7 +236,7 @@ footer img {
     }
 
     .info p{
-        font-size: 1rem;
+        font-size: 1.5vh;
     }
 
     .info h1{
@@ -260,5 +260,9 @@ footer img {
         left: 50%;
         bottom: 10%;
         transform: translateX(-50%);
+    }
+
+    .spikkels{
+        display: none;
     }
 }
