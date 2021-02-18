@@ -236,11 +236,11 @@ footer img {
     }
 
     .info p{
-        font-size: 18px;
+        font-size: 1rem;
     }
 
     .info h1{
-        font-size: 30px;
+        font-size: 2rem;
     }
 
 
@@ -258,7 +258,7 @@ footer img {
 
     .header button{
         left: 50%;
-        bottom: 10px;
+        bottom: 10%;
         transform: translateX(-50%);
     }
 }
