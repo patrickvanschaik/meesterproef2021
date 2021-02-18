@@ -61,6 +61,11 @@ header {
     position: absolute;
 }
 
+.button-container button {
+    width: 15rem;
+    font-size: 1.3rem;
+}
+
 .spikkels{
     width: 30%;
     height: auto;
