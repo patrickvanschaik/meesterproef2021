@@ -123,6 +123,26 @@ footer button{
     z-index: 2;
 }
 
+.prescontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.row h1 {
+    text-align: center;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -130,21 +150,21 @@ footer button{
     margin-bottom: 3rem;
 }
 
-.grid-item {
+.row-item {
     font-size: 16px;
     text-align: center;
     position: relative;
     margin: 20px;
 }
 
-.grid-container .grid-item img {
+.row-item img {
     width: 100%;
     height: 100%;
     height: auto;
     display: block;
 }
 
-.grid-item .overlay {
+.row-item .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -154,7 +174,7 @@ footer button{
     transition: .2s ease;
 }
 
-.grid-item .overlay p {
+.row-item .overlay p {
     color: white;
     opacity: 100%;
     padding: 22% 0;
@@ -162,11 +182,11 @@ footer button{
     opacity: 0;
 }
 
-.grid-item:hover .overlay {
+.row-item:hover .overlay {
     background-color: #068da580;
 }
 
-.grid-item:hover p {
+.row-item:hover p {
     opacity: 1;
 }
 
@@ -216,8 +236,8 @@ footer img {
 
 @media (min-width: 300px) and (max-width: 1200px) {
 
-    .grid-container{
-        grid-template-columns: auto;
+    .row {
+        flex-direction: column;
     }
 
     .banner h1{
