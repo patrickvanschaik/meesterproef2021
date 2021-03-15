@@ -131,12 +131,21 @@ footer button{
     width: 100%;
 }
 
+.prescontainer hr{
+    display: block;
+    text-align: left;
+    background-color: #068EA5;
+    height: 2px;
+    width: 20%;
+}
+
 .row {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-bottom: 150px;
 }
 
 .row h1 {
