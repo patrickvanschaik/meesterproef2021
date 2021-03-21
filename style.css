@@ -239,6 +239,7 @@ footer p {
 
 footer img {
     position: absolute;
+    height: 1.5rem;
     top: 55%;
     left: 20px;
     transform: translateY(-50%);
